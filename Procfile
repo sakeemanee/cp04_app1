@@ -1,1 +1,1 @@
-web: gunicorn django_prj --log-file -
+web: gunicorn CCMS.wsgi --log-file -
